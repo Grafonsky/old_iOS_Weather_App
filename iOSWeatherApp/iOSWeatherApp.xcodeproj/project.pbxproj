@@ -15,6 +15,8 @@
 		905D99C52747458700AD1FBE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 905D99C32747458700AD1FBE /* Main.storyboard */; };
 		905D99C72747458800AD1FBE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 905D99C62747458800AD1FBE /* Assets.xcassets */; };
 		905D99CA2747458800AD1FBE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 905D99C82747458800AD1FBE /* LaunchScreen.storyboard */; };
+		90F4C8EB274B3391000C747F /* CustomForecastCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90F4C8E9274B3391000C747F /* CustomForecastCell.swift */; };
+		90F4C8EC274B3391000C747F /* CustomForecastCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 90F4C8EA274B3391000C747F /* CustomForecastCell.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +30,8 @@
 		905D99C62747458800AD1FBE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		905D99C92747458800AD1FBE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		905D99CB2747458800AD1FBE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		90F4C8E9274B3391000C747F /* CustomForecastCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomForecastCell.swift; sourceTree = "<group>"; };
+		90F4C8EA274B3391000C747F /* CustomForecastCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CustomForecastCell.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +58,8 @@
 			children = (
 				905D99C12747458700AD1FBE /* WeatherController.swift */,
 				90008772274AF1D900092B24 /* CitiesTableController.swift */,
+				90F4C8E9274B3391000C747F /* CustomForecastCell.swift */,
+				90F4C8EA274B3391000C747F /* CustomForecastCell.xib */,
 			);
 			path = Controllers;
 			sourceTree = "<group>";
@@ -148,6 +154,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				905D99CA2747458800AD1FBE /* LaunchScreen.storyboard in Resources */,
+				90F4C8EC274B3391000C747F /* CustomForecastCell.xib in Resources */,
 				905D99C72747458800AD1FBE /* Assets.xcassets in Resources */,
 				905D99C52747458700AD1FBE /* Main.storyboard in Resources */,
 			);
@@ -161,6 +168,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				905D99C22747458700AD1FBE /* WeatherController.swift in Sources */,
+				90F4C8EB274B3391000C747F /* CustomForecastCell.swift in Sources */,
 				905D99BE2747458700AD1FBE /* AppDelegate.swift in Sources */,
 				905D99C02747458700AD1FBE /* SceneDelegate.swift in Sources */,
 				90008773274AF1D900092B24 /* CitiesTableController.swift in Sources */,

@@ -5,7 +5,9 @@ class CitiesTableController: UIViewController {
     let cities: [String:[Double]] = ["Volgograd, RU":[48.700001, 44.516666],
                                      "Moscow, RU": [55.751244, 37.618423],
                                      "Minsk, RB": [53.90125, 27.57245],
-                                     "Palo Alto, USA": [37.4419, -122.143]]
+                                     "Palo Alto, USA": [37.4419, -122.143],
+                                     "Saint Petersburg, RU": [59.938480, 30.312481],
+                                     "Mikhaylovka, RU": [50.070530, 43.233601]]
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -39,6 +41,7 @@ extension CitiesTableController: UITableViewDelegate, UITableViewDataSource {
         let value = Array(cities.values)[indexPath.row]
         let storyboard = UIStoryboard.init(name: "Main", bundle: nil)
         if let controller = storyboard.instantiateViewController(withIdentifier: "WeatherScreenID") as? WeatherController {
+//            controller.modalPresentationStyle = .fullScreen
             controller.cityName = key
             controller.lat = value[0]
             controller.lon = value[1]

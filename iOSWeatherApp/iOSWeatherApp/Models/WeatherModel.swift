@@ -8,6 +8,7 @@ struct WeatherData: Codable {
     var lat: Double
     var lon: Double
     var current: Current
+    var daily: [Daily]
 }
 
 struct Current: Codable {
@@ -21,4 +22,13 @@ struct Current: Codable {
 struct Weather: Codable {
     var main: String
     var description: String
+}
+
+struct Daily: Codable {
+    var dt: Int
+    var temp: Temp
+}
+
+struct Temp: Codable {
+    var day: Double
 }
